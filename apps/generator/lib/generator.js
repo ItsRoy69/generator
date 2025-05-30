@@ -15,7 +15,7 @@ const { isAsyncAPIDocument } = require('@asyncapi/parser/cjs/document');
 
 const { configureReact, renderReact, saveRenderedReactContent } = require('./renderer/react');
 const { configureNunjucks, renderNunjucks } = require('./renderer/nunjucks');
-const { validateTemplateConfig } = require('./templateConfigValidator');
+const { validateTemplateConfig } = require('./templateConfig/validator');
 const {
   convertMapToObject,
   isFileSystemPath,
